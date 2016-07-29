@@ -1,0 +1,26 @@
+.form-control, .btn {
+  border-radius: 0;
+}
+.gengar {
+  background: linear-gradient(to bottom, #736c9e, #434278);
+  border-color: #434278;
+}
+.btn.gengar {
+  color: #fff;
+}
+.btn.gengar:hover {
+  color: #fff;
+  background: linear-gradient(to top, #736c93, #434278);
+}
+.container {
+  width: 600px;
+  margin: 10% auto 0;
+  background: #fff;
+  border-radius: 5px;
+}
+h1, a {
+  color: #434278;
+}
+a:hover {
+  color: #434278;
+}
