@@ -6,30 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <style>
-      .form-control, .btn {
-        border-radius: 0;
-      }
-      .btn-primary {
-        color: #337ab7;
-        background-color: #fff;
-        border-color: #337ab7;
-      }
-      .btn-primary:hover {
-        color: #fff;
-        background-color: #337ab7;
-        border-color: #2e6da4;
-      }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
 
-  <body>
+  <body class="gengar">
 
     <div class="container">
 
       <div class="row">
 
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-12">
 
           <h1>PokeCalculator</h1>
 
@@ -51,16 +37,16 @@
           </div>
 
           <div class="form-group">
-            <button type="button" id="xp_btn" class="btn btn-primary">Calculate</button>
+            <button type="button" id="xp_btn" class="btn gengar">Calculate</button>
           </div>
 
-        </div> <!-- !.col-md-6 col-md-offset-3 -->
+        </div> <!-- !.col-md-12 -->
 
       </div> <!-- !.row -->
 
       <div class="row hidden">
 
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-12">
           <h1>Evolution Calculator</h1>
         </div>
 
@@ -68,11 +54,16 @@
 
       <div class="row" style="margin-top: 25px;">
 
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-12">
           <div id="output" class="well well-sm">Use the form above.</div>
           <p><small>Numbers may be off. Haven't really double checked them. :(</small></p>
         </div>
 
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">Brought to you by <a href="http://github.com/wildbeard/" target="_blank">Wild Beard</a>.</p>
       </div>
 
     </div> <!-- !.container -->

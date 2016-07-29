@@ -1,5 +1,8 @@
 var PokeCalculator = {
-
+  /*
+    XP Table by virodoran
+    Sauce: https://www.reddit.com/r/TheSilphRoad/comments/4s1cpq/xp_requirements_for_levels_so_far_125/
+  */
   current_level: null,
   target_level: null,
   exp_btn: null,
